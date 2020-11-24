@@ -269,6 +269,35 @@ hr{
    align-items: center;
 }
 
+.owl-carousel .card{
+   border: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.owl-carousel{
+   max-height: 110px;
+}
+
+/* .img-col {
+   float: left;
+   width: 20%;
+   padding: 5px;
+ } */
+ 
+ /* Clear floats after image containers */
+ /* .img-row::after {
+   content: "";
+   clear: both;
+   display: table;
+ } */
+
+ .img-ci{
+   -webkit-transform: scaleX(-1);
+   transform: scaleX(-1);
+ }
+
 * {
    scrollbar-width: thin;
    scrollbar-color: #7952b3 #8e2de2;
@@ -307,12 +336,15 @@ hr{
    .familiar{
       min-height: 0px;
    }
+
+   .img-col {
+      float: left;
+      width: 35%;
+      padding: 5px;
+    }
  }
 
  @media (min-width: 577px) and (max-width: 768px) {
-   /* .hero{
-      margin-top: 0px;
-   } */
    
    .footer{
       min-height: 540px;
@@ -324,11 +356,16 @@ hr{
 
    .career .card{
       width: 100% !important;
-      /* margin-left: -25px !important; */
       margin-bottom: 30px;
    }
 
    .familiar{
       min-height: 0px;
    }
+
+   .img-col {
+      float: left;
+      width: 35%;
+      padding: 5px;
+    }
  }
