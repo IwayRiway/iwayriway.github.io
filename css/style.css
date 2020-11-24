@@ -15,6 +15,10 @@ body {
    font-weight: 800;
 }
 
+.hero .btm{
+   margin-bottom: 10px;
+}
+
 .hero .btn-primary{
    padding: 10px 20px 10px 20px;
    background-color: #7952b3;
@@ -258,6 +262,13 @@ hr{
    box-shadow: -1px -1px 16px -4px rgba(0, 0, 0, 0.53);
 }
 
+.familiar{
+   min-height: 250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
 * {
    scrollbar-width: thin;
    scrollbar-color: #7952b3 #8e2de2;
@@ -275,6 +286,10 @@ hr{
  }
 
  @media (min-width: 320px) and (max-width: 576px) {
+    .hero{
+       margin-top: 0px !important;
+    }
+
    .footer{
       min-height: 875px;
    }
@@ -287,12 +302,18 @@ hr{
 
    .education .card{
       width: 100% !important;
-      /* margin-left: 0px !important;
-      margin-bottom: 30px; */
+   }
+
+   .familiar{
+      min-height: 0px;
    }
  }
 
  @media (min-width: 577px) and (max-width: 768px) {
+   /* .hero{
+      margin-top: 0px;
+   } */
+   
    .footer{
       min-height: 540px;
    }
@@ -307,12 +328,7 @@ hr{
       margin-bottom: 30px;
    }
 
-   /* .career .card-primary{
-      width: 100% !important;
-      margin-left: -55px !important;
-   }  */
-
-   /* .img1{
-      margin-left: -300px !important;
-   } */
+   .familiar{
+      min-height: 0px;
+   }
  }
