@@ -35,6 +35,183 @@ body {
    border-radius: 20px;;
 }
 
+.hero .kiri{
+   opacity: 0;
+   transform: translate(-50px, 0);
+   transition: 1s;
+}
+
+.hero .kanan{
+   opacity: 0;
+   transform: translate(50px, 0);
+   transition: 1s;
+}
+
+.about .kiri{
+   opacity: 0;
+   transform: translate(-50px, 0);
+   transition: 1s;
+}
+
+.about .kanan{
+   opacity: 0;
+   transform: translate(50px, 0);
+   transition: 1s;
+}
+
+.skill .kiri{
+   opacity: 0;
+   transform: translate(-50px, 0);
+   transition: 1s;
+}
+
+.skill .card{
+   opacity: 0;
+   transform: translate(0, 50px);
+   transition: 1s;
+}
+
+.char .judul{
+   opacity: 0;
+   transform: translate(0, 50px);
+   transition: 1s;
+}
+
+.char .card-1{
+   opacity: 0;
+   transform: translate(-50px,0) rotate(15deg);
+   transition: 1s;
+}
+
+.char .card-2{
+   opacity: 0;
+   transform: translate(0,50px);
+   transition: 1s;
+}
+
+.char .card-3{
+   opacity: 0;
+   transform: translate(0,-50px);
+   transition: 1s;
+}
+
+.char .card-4{
+   opacity: 0;
+   transform: translate(50px,0) rotate(-15deg);
+   transition: 1s;
+}
+
+.judul{
+   opacity: 0;
+   transform: translate(0,-50px);
+   transition: 1s;
+}
+
+.education .kiri{
+   opacity: 0;
+   transform: translate(-50px, 0);
+   transition: 1s;
+}
+
+.education .kanan{
+   opacity: 0;
+   transform: translate(50px, 0);
+   transition: 1s;
+}
+
+.career .row-1{
+   opacity: 0;
+   transform: translate(50px,0) rotate(-15deg);
+   transition: 1s;
+}
+
+.career .row-2{
+   opacity: 0;
+   transform: translate(-50px,0) rotate(15deg);
+   transition: 1s;
+}
+
+.career .row-3{
+   opacity: 0;
+   transform: translate(50px,0) rotate(-15deg);
+   transition: 1s;
+}
+
+.my-skill .card{
+   opacity: 0;
+   transform: translate(0,-50px) rotate(90deg);
+   transition: 1s;
+}
+
+.portfolio-1 .kiri{
+   opacity: 0;
+   transform: translate(-50px, 0);
+   transition: 1s;
+}
+
+.portfolio-2 .kanan{
+   opacity: 0;
+   transform: translate(50px, 0);
+   transition: 1s;
+}
+
+.portfolio-3 .kiri{
+   opacity: 0;
+   transform: translate(-50px, 0);
+   transition: 1s;
+}
+
+.portfolio-4 .kanan{
+   opacity: 0;
+   transform: translate(50px, 0);
+   transition: 1s;
+}
+
+.portfolio-5 .kiri{
+   opacity: 0;
+   transform: translate(-50px, 0);
+   transition: 1s;
+}
+
+.gambar{
+   opacity: 0;
+   transition: 1s;
+}
+
+.kiri.muncul, .kanan.muncul{
+   opacity: 1;
+   transform: translate(0, 0);
+}
+
+.card.muncul{
+   opacity: 1;
+   transform: translate(0, 0);
+}
+
+.judul.muncul{
+   opacity: 1;
+   transform: translate(0, 0);
+}
+
+.row-1.muncul{
+   opacity: 1;
+   transform: translate(0, 0);
+}
+
+.row-2.muncul{
+   opacity: 1;
+   transform: translate(0, 0);
+}
+
+.row-3.muncul{
+   opacity: 1;
+   transform: translate(0, 0);
+}
+
+.gambar.muncul{
+   opacity: 1;
+}
+
 .navbar-brand{
    font-weight: 900 !important;
    color: #4f2b85 !important;
