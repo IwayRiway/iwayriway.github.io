@@ -1,0 +1,100 @@
+body{
+   background-image: url("../img/bg-body-1.png");
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: 120vmax;
+}
+
+.hero {
+   color: #ffffff;
+}
+
+.hero h4{
+   color: #4DFCE0;
+}
+
+.about .kiri{
+   background-image: url("../img/bg-1.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 30vmax;
+}
+
+.skill{
+   background-image: url("../img/bg-2.png");
+   background-position: bottom left;
+   background-repeat: no-repeat;
+   background-size: 20vmax;
+}
+
+.char{
+   background-image: url("../img/bg-line.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100vmax;
+}
+
+@media (min-width: 320px) {
+   body{
+      background-size: 600vmax;
+   }
+}
+
+@media (min-width: 375px) {
+   body{
+      background-size: 550vmax;
+   }
+}
+
+@media (min-width: 425px) {
+   body{
+      /* background-size: 550vmax; */
+   }
+}
+
+@media (min-width: 1024px) {
+   body{
+      background-size: 150vmax;
+   }
+
+   .skill{
+      background-size: 25vmax;
+   }
+}
+
+@media (min-width: 1440px) {
+   body{
+      background-size: 120vmax !important;
+   }
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+   .about .kiri{
+      background-size: 80vmax;
+   }
+
+   .skill{
+      background-image: none;
+   }
+
+   .char{
+      background-image: url("../img/bg-line-2.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 200vmax;
+   }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+   body{
+      background-size: 200vmax;
+   }
+
+   .about .kiri{
+      background-size: 40vmax;
+   }
+
+   .skill{
+      background-size: 30vmax;
+   }
+ }

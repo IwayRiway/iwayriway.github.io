@@ -1,0 +1,52 @@
+body{
+   background-image: url("../img/bg-body-2.png");
+   background-position: top;
+   background-repeat: no-repeat;
+   background-size: 110vmax;
+}
+
+
+.education h4{
+   color: #ffffff;
+}
+
+.education hr{
+   border: 2px solid #ffffff;
+}
+
+.career{
+   background-image: url("../img/bg-3.png"), url("../img/bg-4.png"), url("../img/bg-2.png");
+   background-position: top left, right, bottom left;
+   background-repeat: no-repeat, no-repeat, no-repeat;
+   background-size: 40vmax, 35vmax, 20vmax;
+}
+
+.my-skill{
+   background-image: url("../img/bg-line.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 110vmax;
+}
+
+@media (min-width: 320px) and (max-width: 576px) {
+   body{
+      background-size: 480vmax;
+   }
+
+   .career{
+      background-image: none;
+   }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+   body{
+      background-size: 220vmax;
+   }
+
+   .career{
+      background-image: url("../img/bg-line-2.png");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 110vmax;
+   }
+ }

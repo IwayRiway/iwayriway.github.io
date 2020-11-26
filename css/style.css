@@ -21,18 +21,22 @@ body {
 
 .hero .btn-primary{
    padding: 10px 20px 10px 20px;
-   background-color: #7952b3;
+   background-color: #00CDF8;
    font-weight: 600;
    border: none;
-   border-radius: 20px;;
+   border-radius: 20px;
+   color: #E1EDF3;
+   font-weight: 900;
 }
 
 .hero .btn-primary:hover{
    padding: 10px 20px 10px 20px;
-   background-color: #4f2b85 !important;
+   background-color: #00aacc !important;
    font-weight: 600;
    border: none;
-   border-radius: 20px;;
+   border-radius: 20px;
+   color: #E1EDF3;
+   font-weight: 900;
 }
 
 .hero .kiri{
@@ -213,13 +217,23 @@ body {
 }
 
 .navbar-brand{
-   font-weight: 900 !important;
-   color: #4f2b85 !important;
+   color: #4DFCE0 !important;
+}
+
+.navbar-brand:hover{
+   color: #E1EDF3 !important;
+}
+
+.navbar-nav a {
+   color: #B0A8B9 !important;
+}
+
+.navbar-nav a:hover {
+   color: #E1EDF3 !important;
 }
 
 .navbar-nav .active{
-   color: #4f2b85 !important;
-   border-bottom: 3px solid #4f2b85;
+   color: #4DFCE0 !important;
 }
 
 h4{
@@ -566,6 +580,169 @@ hr{
       width: 35%;
       padding: 5px;
     }
+
+    .hero .kiri{
+      opacity: 0;
+      transform: translate(0, -50px);
+      transition: 1s;
+   }
+   
+   .hero .kanan{
+      opacity: 0;
+      transform: translate(0, 50px);
+      transition: 1s;
+   }
+   
+   .about .kiri{
+      opacity: 0;
+      transform: translate(0, -50px);
+      transition: 1s;
+   }
+   
+   .about .kanan{
+      opacity: 0;
+      transform: translate(0, 50px);
+      transition: 1s;
+   }
+   
+   .skill .kiri{
+      opacity: 0;
+      transform: translate(0, -50px);
+      transition: 1s;
+   }
+   
+   .skill .card{
+      opacity: 0;
+      transform: translate(0, 50px);
+      transition: 1s;
+   }
+   
+   .char .judul{
+      opacity: 0;
+      transform: translate(0, 50px);
+      transition: 1s;
+   }
+   
+   .char .card-1{
+      opacity: 0;
+      transform: translate(0,-50px) rotate(15deg);
+      transition: 1s;
+   }
+   
+   .char .card-2{
+      opacity: 0;
+      transform: translate(0,50px);
+      transition: 1s;
+   }
+   
+   .char .card-3{
+      opacity: 0;
+      transform: translate(0,-50px);
+      transition: 1s;
+   }
+   
+   .char .card-4{
+      opacity: 0;
+      transform: translate(0,50px) rotate(-15deg);
+      transition: 1s;
+   }
+
+   .education .kiri{
+      opacity: 0;
+      transform: translate(0, -50px);
+      transition: 1s;
+   }
+
+   .education .kanan{
+      opacity: 0;
+      transform: translate(0, 50px);
+      transition: 1s;
+   }
+
+   .career .row-1{
+      opacity: 0;
+      transform: translate(0,50px);
+      transition: 1s;
+   }
+
+   .career .row-2{
+      opacity: 0;
+      transform: translate(0,50px);
+      transition: 1s;
+   }
+
+   .career .row-3{
+      opacity: 0;
+      transform: translate(0,50px);
+      transition: 1s;
+   }
+
+   .my-skill .card{
+      opacity: 0;
+      transform: translate(0,50px);
+      transition: 1s;
+   }
+
+   
+   .portfolio-1 .kiri{
+      opacity: 0;
+      transform: translate(0, -50px);
+      transition: 1s;
+   }
+
+   .portfolio-2 .kanan{
+      opacity: 0;
+      transform: translate(0, 50px);
+      transition: 1s;
+   }
+
+   .portfolio-3 .kiri{
+      opacity: 0;
+      transform: translate(0, -50px);
+      transition: 1s;
+   }
+
+   .portfolio-4 .kanan{
+      opacity: 0;
+      transform: translate(0, 50px);
+      transition: 1s;
+   }
+
+   .portfolio-5 .kiri{
+      opacity: 0;
+      transform: translate(0, -50px);
+      transition: 1s;
+   }
+
+   .kiri.muncul, .kanan.muncul{
+      opacity: 1;
+      transform: translate(0, 0);
+   }
+   
+   .card.muncul{
+      opacity: 1;
+      transform: translate(0, 0);
+   }
+   
+   .judul.muncul{
+      opacity: 1;
+      transform: translate(0, 0);
+   }
+   
+   .row-1.muncul{
+      opacity: 1;
+      transform: translate(0, 0);
+   }
+   
+   .row-2.muncul{
+      opacity: 1;
+      transform: translate(0, 0);
+   }
+   
+   .row-3.muncul{
+      opacity: 1;
+      transform: translate(0, 0);
+   }
  }
 
  @media (min-width: 577px) and (max-width: 768px) {
