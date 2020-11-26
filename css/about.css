@@ -30,7 +30,7 @@ body{
 
 @media (min-width: 320px) and (max-width: 576px) {
    body{
-      background-size: 480vmax;
+      background-size: 220vmax;
    }
 
    .career{
@@ -45,8 +45,8 @@ body{
 
    .career{
       background-image: url("../img/bg-line-2.png");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: 110vmax;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 110vmax;
    }
  }

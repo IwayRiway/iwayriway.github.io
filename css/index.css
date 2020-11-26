@@ -2,7 +2,7 @@ body{
    background-image: url("../img/bg-body-1.png");
    background-position: top;
    background-repeat: no-repeat;
-   background-size: 120vmax;
+   background-size: 100% 500px;
 }
 
 .hero {
@@ -34,43 +34,16 @@ body{
    background-size: 100vmax;
 }
 
-@media (min-width: 320px) {
-   body{
-      background-size: 600vmax;
-   }
-}
-
-@media (min-width: 375px) {
-   body{
-      background-size: 550vmax;
-   }
-}
-
-@media (min-width: 425px) {
-   body{
-      /* background-size: 550vmax; */
-   }
-}
-
-@media (min-width: 1024px) {
-   body{
-      background-size: 150vmax;
-   }
-
-   .skill{
-      background-size: 25vmax;
-   }
-}
-
-@media (min-width: 1440px) {
-   body{
-      background-size: 120vmax !important;
-   }
-}
-
 @media (min-width: 320px) and (max-width: 576px) {
+   body{
+      background-image: url("../img/bg-body-1-phone.png");
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: 100% 650px;
+   }
+   
    .about .kiri{
-      background-size: 80vmax;
+      background-size: 60vmax;
    }
 
    .skill{
